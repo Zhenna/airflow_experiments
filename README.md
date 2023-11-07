@@ -1,7 +1,7 @@
 # airflow_experiments
 
 ```
-$ python3 main.py -h
+$ python3 dags/main.py -h
 usage: main.py [-h] -n NAME -bd BIRTHDATE
 
 Get user input.
@@ -16,5 +16,10 @@ options:
 ## How to run?
 
 ```
-python3 main.py -n Lily -bd 2020-01-03
+python3 dags/main.py -n Lily -bd 2020-01-03
+```
+
+## How to create DAG?
+```
+python3 dags/dag.py
 ```
