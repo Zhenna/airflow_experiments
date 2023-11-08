@@ -23,3 +23,24 @@ python3 dags/main.py -n Lily -bd 2020-01-03
 ```
 python3 dags/dag.py
 ```
+
+## Repo structure
+
+```
+.
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── webserver_config.py
+├── airflow-webserver.pid
+├── airflow.db
+├── airflow.cfg
+├── ...
+│
+├── dags                             
+│   ├── main.py            
+│   └── dag.py
+│
+└── ...
+```
